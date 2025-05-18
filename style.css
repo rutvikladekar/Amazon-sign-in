@@ -1,0 +1,42 @@
+*{
+
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f3;
+}
+
+.container{
+  width: 290px;
+  border: 0.5px solid grey;
+  border-radius: 9px;
+  padding: 15px;
+}
+
+.container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+/* label {
+  margin-top: 15px;
+  margin-bottom: 15px;
+} */
+
+#btn{
+  margin-top: 10px;
+  height: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(65, 65, 191);
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
